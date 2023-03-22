@@ -1,10 +1,10 @@
 #!/bin/bash -e
 
 usage(){
-	echo "Usage: vscode_server_installer [options]"
+    echo "Usage: vscode_server_installer [options]"
     echo "--version"
-	echo "--commit[=]<commit_hash>  install vscode server of specified commit hash"
-	exit 0
+    echo "--commit[=]<commit_hash>  install vscode server of specified commit hash"
+    exit 0
 }
 
 install(){
