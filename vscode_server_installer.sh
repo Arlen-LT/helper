@@ -22,7 +22,7 @@ do
     case "$1" in
     	--commit) shift; install $1 ;;
     	-h | --help) usage ;;
-    	--version) echo "vscode-server-installer $version by https://github.com/Arlen-LT/utility"; exit 0 ;;
+    	--version) echo "${0##*/} $version by https://github.com/Arlen-LT/utility"; exit 0 ;;
     	--) shift; break;;
     esac
     shift
